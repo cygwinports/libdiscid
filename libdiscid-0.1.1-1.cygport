@@ -1,0 +1,3 @@
+DESCRIPTION="Creates MusicBrainz DiscIDs from audio CDs"
+HOMEPAGE="http://musicbrainz.org/doc/libdiscid"
+SRC_URI="http://users.musicbrainz.org/~matt/${P}.tar.gz"
