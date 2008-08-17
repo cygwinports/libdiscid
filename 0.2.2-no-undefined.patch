@@ -1,0 +1,10 @@
+--- origsrc/libdiscid-0.2.2/src/disc_win32.c	2008-01-12 05:19:13.000000000 -0600
++++ src/libdiscid-0.2.2/src/disc_win32.c	2008-08-17 15:55:45.907320700 -0500
+@@ -32,6 +32,7 @@
+ #endif
+ 
+ #include "discid/discid_private.h"
++#include "disc_win32_new.c"
+ 
+ #define MB_DEFAULT_DEVICE	"cdaudio"
+ 

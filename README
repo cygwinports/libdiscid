@@ -1,0 +1,71 @@
+libdiscid
+------------------------------------------
+libdiscid is a C library for creating MusicBrainz DiscIDs from audio 
+CDs. It reads a CD's table of contents (TOC) and generates an identifier 
+which can be used to lookup the CD at MusicBrainz. Additionally, it 
+provides a submission URL for adding the DiscID to the database.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.8-1.8.5-3
+  binutils-20080524-2
+  cygport-0.3.12-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.2-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://musicbrainz.org/doc/libdiscid
+
+Canonical download:
+  http://users.musicbrainz.org/~matt/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libdiscid-0.2.2-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libdiscid-0.2.2-X.cygport all
+
+This will create:
+  /usr/src/libdiscid-0.2.2-X-src.tar.bz2
+  /usr/src/libdiscid-0.2.2-X.tar.bz2
+  /usr/src/libdiscid-devel-0.2.2-X.tar.bz2
+  /usr/src/libdiscid0-0.2.2-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libdiscid0)
+  /usr/bin/cygdiscid-0.dll
+  /usr/share/doc/libdiscid-0.2.2/AUTHORS
+  /usr/share/doc/libdiscid-0.2.2/COPYING
+  /usr/share/doc/libdiscid-0.2.2/ChangeLog
+  /usr/share/doc/libdiscid-0.2.2/README
+
+(libdiscid-devel)
+  /usr/include/discid/discid.h
+  /usr/lib/libdiscid.a
+  /usr/lib/libdiscid.dll.a
+  /usr/lib/libdiscid.la
+  /usr/lib/pkgconfig/libdiscid.pc
+
+------------------
+
+Port Notes:
+
+----- version 0.2.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
