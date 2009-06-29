@@ -1,5 +1,5 @@
 category: Audio
-requires: cygwin libdiscid0
+requires: libdiscid0
 external-source: libdiscid
 sdesc: "MusicBrainz DiscID library (devel)"
 ldesc: "libdiscid is a C library for creating MusicBrainz DiscIDs from 
